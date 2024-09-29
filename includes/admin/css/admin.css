@@ -1,0 +1,16 @@
+.singleview-header-logo {
+    float: left;
+    margin: 7px 8px 0 0;
+    width: 36px;
+    height: 36px;
+    background: url(../images/singleview-logo.png) left top no-repeat;
+}
+
+/* tab on the header */
+.tab-utm-shortener-setting {
+    display: none;
+}
+
+.tab-utm-shortener-setting-active {
+    display: block;
+}

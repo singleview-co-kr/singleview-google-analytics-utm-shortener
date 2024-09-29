@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: singleview-google-analytics-utm-shortener\n"
+"POT-Creation-Date: 2024-09-29 16:26+0900\n"
+"PO-Revision-Date: 2024-09-29 16:45+0900\n"
+"Last-Translator: singleviewcokr <singleviewcokr@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-KeywordsList: _;__;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: singleview-google-analytics-utm-shortener.php\n"
+
+#: includes/admin/admin.php:65 includes/admin/tpl/header.php:6 includes/admin/tpl/shortener_list.php:7
+msgid "cmd_insert"
+msgstr "Insert"
+
+#: includes/admin/admin.php:96 includes/admin/admin.php:109
+msgid "msg_call_invalid_module"
+msgstr "Call an invalid module"
+
+#: includes/admin/admin.php:129
+msgid "msg_thank_you_using_utm_shortener"
+msgstr ""
+"Thank you for using <a href=\"%1$s\" target=\"_blank\">Singleview google analytics UTM URL Shortener</a>! Please "
+"<a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+
+#: includes/admin/shortener.admin.controller.php:26 includes/admin/shortener.admin.view.php:23
+msgid "msg_no_permission"
+msgstr "No permission"
+
+#: includes/admin/shortener.admin.controller.php:58
+msgid "msg_error_invalid_shortener_id"
+msgstr "Invalid shortener id"
+
+#: includes/admin/shortener.admin.controller.php:67 includes/admin/shortener.admin.controller.php:142
+msgid "msg_error_invalid_utm_source"
+msgstr "Invalid UTM source"
+
+#: includes/admin/shortener.admin.controller.php:71 includes/admin/shortener.admin.controller.php:148
+msgid "msg_error_invalid_utm_medium"
+msgstr "Invalid UTM medium"
+
+#: includes/admin/shortener.admin.controller.php:76 includes/admin/shortener.admin.controller.php:154
+msgid "msg_error_invalid_influencer_type"
+msgstr "Invalid influencer_type"
+
+#: includes/admin/shortener.admin.controller.php:83 includes/admin/shortener.admin.controller.php:174
+#: includes/admin/shortener.admin.controller.php:197 includes/admin/shortener.admin.controller.php:205
+#: includes/admin/shortener.admin.controller.php:208
+msgid "msg_error_invalid_date_info"
+msgstr "Invalid alocation date period info"
+
+#: includes/admin/shortener.admin.controller.php:231
+msgid "msg_error_invalid_utm_term"
+msgstr "Invalid UTM term"
+
+#: includes/admin/shortener.admin.controller.php:238
+msgid "msg_error_existing_shorten_uri_value"
+msgstr "Already existing shorten uri value"
+
+#: includes/admin/shortener.admin.view.php:29
+msgid "lbl_influencer"
+msgstr "Influencer"
+
+#: includes/admin/shortener.admin.view.php:30
+msgid "lbl_top_ranker"
+msgstr "Top ranker"
+
+#: includes/admin/shortener.admin.view.php:31
+msgid "lbl_penetration"
+msgstr "Community penetration"
+
+#: includes/admin/tpl/default-settings.php:46
+msgid "lbl_utm_source"
+msgstr "UTM Source"
+
+#: includes/admin/tpl/default-settings.php:47
+msgid "desc_utm_source"
+msgstr "Please select UTM Source."
+
+#: includes/admin/tpl/default-settings.php:54
+msgid "lbl_utm_medium"
+msgstr "UTM Medium"
+
+#: includes/admin/tpl/default-settings.php:55
+msgid "desc_utm_medium"
+msgstr "Please select UTM Medium."
+
+#: includes/admin/tpl/default-settings.php:62
+msgid "lbl_utm_content"
+msgstr "UTM Content"
+
+#: includes/admin/tpl/default-settings.php:63
+msgid "desc_utm_content"
+msgstr "Please enter UTM Content."
+
+#: includes/admin/tpl/default-settings.php:68
+msgid "lbl_utm_campaign_id"
+msgstr "UTM Campaign ID"
+
+#: includes/admin/tpl/default-settings.php:69
+msgid "desc_utm_campaign_id"
+msgstr "Please enter UTM Campaign ID."
+
+#: includes/admin/tpl/default-settings.php:74
+msgid "lbl_influencer_type"
+msgstr "Influencer type"
+
+#: includes/admin/tpl/default-settings.php:75
+msgid "desc_influencer_type"
+msgstr "Please select Influencer type."
+
+#: includes/admin/tpl/default-settings.php:84
+msgid "lbl_utm_term_influencer_id"
+msgstr "utm_term & Influencer_id"
+
+#: includes/admin/tpl/default-settings.php:85
+msgid "desc_utm_term_influencer_id"
+msgstr "Enter tab separated target keyword & blogger ID pair in multiple lines."
+
+#: includes/admin/tpl/default-settings.php:92
+msgid "lbl_utm_term"
+msgstr "UTM Term"
+
+#: includes/admin/tpl/default-settings.php:93
+msgid "desc_utm_term"
+msgstr "Please enter UTM Term."
+
+#: includes/admin/tpl/default-settings.php:98
+msgid "lbl_influencer_id"
+msgstr "Influencer unique ID"
+
+#: includes/admin/tpl/default-settings.php:99
+msgid "desc_influencer_id"
+msgstr "Please enter influencer unique ID."
+
+#: includes/admin/tpl/default-settings.php:106 includes/admin/wp_admin_class/wp_shortener_list.php:63
+msgid "lbl_fixed_cost_incl_vat"
+msgstr "Cost"
+
+#: includes/admin/tpl/default-settings.php:107
+msgid "desc_fixed_cost_incl_vat"
+msgstr "Please enter VAT included cost."
+
+#: includes/admin/tpl/default-settings.php:114
+msgid "lbl_memo"
+msgstr "Memo"
+
+#: includes/admin/tpl/default-settings.php:115
+msgid "desc_memo"
+msgstr "Please enter memo."
+
+#: includes/admin/tpl/default-settings.php:120
+msgid "lbl_allocation_start_date"
+msgstr "Please enter allocation start date."
+
+#: includes/admin/tpl/default-settings.php:121
+msgid "desc_allocation_start_date"
+msgstr "Ex) date: YYYYMMDD, days from registration date: +2d, weeks from registration date: +2w"
+
+#: includes/admin/tpl/default-settings.php:127
+msgid "lbl_allocation_end_date"
+msgstr "Please enter allocation end date."
+
+#: includes/admin/tpl/default-settings.php:128
+msgid "desc_allocation_end_date"
+msgstr "Ex) date: YYYYMMDD, days from registration date: +2d, weeks from registration date: +2w"
+
+#: includes/admin/tpl/header.php:9
+msgid "cmd_update"
+msgstr "Update"
+
+#: includes/admin/tpl/header.php:16
+msgid "cmd_goto_community"
+msgstr "Community"
+
+#: includes/admin/tpl/header.php:17
+msgid "cmd_goto_support"
+msgstr "Tech support"
+
+#: includes/admin/tpl/settings-page.php:74 includes/admin/tpl/shortener_list.php:29
+msgid "cmd_save_change"
+msgstr "Save"
+
+#: includes/admin/tpl/settings-page.php:114
+msgid "lbl_bulk_insert"
+msgstr "Bulk insert"
+
+#: includes/admin/tpl/settings-page.php:119
+msgid "lbl_single_update"
+msgstr "Single update"
+
+#: includes/admin/tpl/settings-page.php:169
+msgid "lbl_plz_select"
+msgstr "Please select"
+
+#: includes/admin/tpl/shortener_list.php:4
+msgid "cmd_shortener_list"
+msgstr "Shortener list"
+
+#: includes/admin/tpl/shortener_list.php:20
+msgid "lbl_shortener_query"
+msgstr "Shortener query"
+
+#: includes/admin/tpl/shortener_list.php:23
+msgid "desc_shortener_query"
+msgstr "Ex) http(s)://server.com/?shortquery=xxx. Once entered, it cannot be modified."
+
+#: includes/admin/tpl/shortener_list.php:36
+msgid "lbl_search"
+msgstr "Search"
+
+#: includes/admin/tpl/sidebar.php:18
+msgid "cmd_support_singleview"
+msgstr "Support Singleview."
+
+#: includes/admin/tpl/sidebar.php:25
+msgid "lbl_donate_for_utm_shortener"
+msgstr "Support utm shortener"
+
+#: includes/admin/tpl/sidebar.php:27
+msgid "cmd_enter_amount_in_usd"
+msgstr "Enter donation amount in USD"
+
+#: includes/admin/tpl/sidebar.php:31
+msgid "cmd_support_utm_shortener"
+msgstr "Support utm shortener"
+
+#: includes/admin/tpl/sidebar.php:40
+msgid "lbl_quick_links"
+msgstr "Quick links"
+
+#: includes/admin/tpl/sidebar.php:46
+msgid "lbl_utm_shortener_plugin_homepage"
+msgstr "utm shortener homeplage"
+
+#: includes/admin/tpl/sidebar.php:51
+msgid "lbl_wp_faq"
+msgstr "FAQ"
+
+#: includes/admin/tpl/sidebar.php:56
+msgid "lbl_wp_support"
+msgstr "Wordpress support"
+
+#: includes/admin/tpl/sidebar.php:61
+msgid "lbl_wp_reviews"
+msgstr "Wordpress reviews"
+
+#: includes/admin/tpl/sidebar.php:66
+msgid "lbl_github"
+msgstr "Github"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:60
+msgid "lbl_shorten_uri"
+msgstr "Shorten uri"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:61
+msgid "lbl_utm_info"
+msgstr "UTM Info"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:62
+msgid "lbl_click_cnt"
+msgstr "Clicks"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:64
+msgid "lbl_allocation_period"
+msgstr "Cost alloc period"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:65
+msgid "lbl_regdate"
+msgstr "Regdate"

@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: singleview-google-analytics-utm-shortener\n"
+"POT-Creation-Date: 2024-09-29 16:29+0900\n"
+"PO-Revision-Date: 2024-09-29 16:30+0900\n"
+"Last-Translator: singleviewcokr <singleviewcokr@gmail.com>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-KeywordsList: _;__;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: singleview-google-analytics-utm-shortener.php\n"
+
+#: includes/admin/admin.php:65 includes/admin/tpl/header.php:6
+#: includes/admin/tpl/shortener_list.php:7
+msgid "cmd_insert"
+msgstr "추가하기"
+
+#: includes/admin/admin.php:96 includes/admin/admin.php:109
+msgid "msg_call_invalid_module"
+msgstr "잘못된 모듈을 호출했습니다."
+
+#: includes/admin/admin.php:129
+msgid "msg_thank_you_using_utm_shortener"
+msgstr ""
+"<a href=\"%1$s\" target=\"_blank\">Singleview google analytics 단축 UTM URL</a>를 선택해서 감"
+"사드려요! <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>에서 <a href=\"%2$s\" "
+"target=\"_blank\">평가해 주세요.</a>"
+
+#: includes/admin/shortener.admin.controller.php:26 includes/admin/shortener.admin.view.php:23
+msgid "msg_no_permission"
+msgstr "권한이 없습니다."
+
+#: includes/admin/shortener.admin.controller.php:58
+msgid "msg_error_invalid_shortener_id"
+msgstr "단축 URL 식별자가 유효하지 않습니다."
+
+#: includes/admin/shortener.admin.controller.php:67
+#: includes/admin/shortener.admin.controller.php:142
+msgid "msg_error_invalid_utm_source"
+msgstr "UTM source가 유효하지 않습니다."
+
+#: includes/admin/shortener.admin.controller.php:71
+#: includes/admin/shortener.admin.controller.php:148
+msgid "msg_error_invalid_utm_medium"
+msgstr "UTM medium이 유효하지 않습니다."
+
+#: includes/admin/shortener.admin.controller.php:76
+#: includes/admin/shortener.admin.controller.php:154
+msgid "msg_error_invalid_influencer_type"
+msgstr "인플루언서 유형이 유효하지 않습니다."
+
+#: includes/admin/shortener.admin.controller.php:83
+#: includes/admin/shortener.admin.controller.php:174
+#: includes/admin/shortener.admin.controller.php:197
+#: includes/admin/shortener.admin.controller.php:205
+#: includes/admin/shortener.admin.controller.php:208
+msgid "msg_error_invalid_date_info"
+msgstr "비용 배분 기간 정보가 유효하지 않습니다."
+
+#: includes/admin/shortener.admin.controller.php:231
+msgid "msg_error_invalid_utm_term"
+msgstr "UTM term 정보가 유효하지 않습니다"
+
+#: includes/admin/shortener.admin.controller.php:238
+msgid "msg_error_existing_shorten_uri_value"
+msgstr "이미 존재하는 단축 UTM URL입니다."
+
+#: includes/admin/shortener.admin.view.php:29
+msgid "lbl_influencer"
+msgstr "인플루언서"
+
+#: includes/admin/shortener.admin.view.php:30
+msgid "lbl_top_ranker"
+msgstr "상위노출"
+
+#: includes/admin/shortener.admin.view.php:31
+msgid "lbl_penetration"
+msgstr "커뮤니티 진입"
+
+#: includes/admin/tpl/default-settings.php:46
+msgid "lbl_utm_source"
+msgstr "UTM Source"
+
+#: includes/admin/tpl/default-settings.php:47
+msgid "desc_utm_source"
+msgstr "UTM Source를 선택하세요."
+
+#: includes/admin/tpl/default-settings.php:54
+msgid "lbl_utm_medium"
+msgstr "UTM Medium"
+
+#: includes/admin/tpl/default-settings.php:55
+msgid "desc_utm_medium"
+msgstr "UTM Medium을 선택하세요."
+
+#: includes/admin/tpl/default-settings.php:62
+msgid "lbl_utm_content"
+msgstr "UTM Content"
+
+#: includes/admin/tpl/default-settings.php:63
+msgid "desc_utm_content"
+msgstr "UTM Content를 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:68
+msgid "lbl_utm_campaign_id"
+msgstr "UTM Campaign ID"
+
+#: includes/admin/tpl/default-settings.php:69
+msgid "desc_utm_campaign_id"
+msgstr "UTM Campaign ID를 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:74
+msgid "lbl_influencer_type"
+msgstr "인플루언서 유형"
+
+#: includes/admin/tpl/default-settings.php:75
+msgid "desc_influencer_type"
+msgstr "인플루언서 유형을 선택하세요."
+
+#: includes/admin/tpl/default-settings.php:84
+msgid "lbl_utm_term_influencer_id"
+msgstr "목표키워드 & 블로거ID"
+
+#: includes/admin/tpl/default-settings.php:85
+msgid "desc_utm_term_influencer_id"
+msgstr "탭으로 구분한 목표키워드 & 블로거ID을 여러 줄로 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:92
+msgid "lbl_utm_term"
+msgstr "UTM Term"
+
+#: includes/admin/tpl/default-settings.php:93
+msgid "desc_utm_term"
+msgstr "UTM Term을 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:98
+msgid "lbl_influencer_id"
+msgstr "인플루언서 고유 ID"
+
+#: includes/admin/tpl/default-settings.php:99
+msgid "desc_influencer_id"
+msgstr "인플루언서 고유 ID를 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:106
+#: includes/admin/wp_admin_class/wp_shortener_list.php:63
+msgid "lbl_fixed_cost_incl_vat"
+msgstr "비용"
+
+#: includes/admin/tpl/default-settings.php:107
+msgid "desc_fixed_cost_incl_vat"
+msgstr "부가세를 포함한 비용을 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:114
+msgid "lbl_memo"
+msgstr "메모"
+
+#: includes/admin/tpl/default-settings.php:115
+msgid "desc_memo"
+msgstr "메모를 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:120
+msgid "lbl_allocation_start_date"
+msgstr "비용 배분 시작일을 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:121
+msgid "desc_allocation_start_date"
+msgstr "지정방식 일자: YYYYMMDD, 등록일부터 몇일 후: +2d, 등록일부터 몇주 후: +2w"
+
+#: includes/admin/tpl/default-settings.php:127
+msgid "lbl_allocation_end_date"
+msgstr "비용 배분 종료일을 입력하세요."
+
+#: includes/admin/tpl/default-settings.php:128
+msgid "desc_allocation_end_date"
+msgstr "지정방식 일자: YYYYMMDD, 등록일부터 몇일 후: +2d, 등록일부터 몇주 후: +2w"
+
+#: includes/admin/tpl/header.php:9
+msgid "cmd_update"
+msgstr "수정하기"
+
+#: includes/admin/tpl/header.php:16
+msgid "cmd_goto_community"
+msgstr "커뮤니티"
+
+#: includes/admin/tpl/header.php:17
+msgid "cmd_goto_support"
+msgstr "기술지원"
+
+#: includes/admin/tpl/settings-page.php:74 includes/admin/tpl/shortener_list.php:29
+msgid "cmd_save_change"
+msgstr "입력하기"
+
+#: includes/admin/tpl/settings-page.php:114
+msgid "lbl_bulk_insert"
+msgstr "여러개 입력"
+
+#: includes/admin/tpl/settings-page.php:119
+msgid "lbl_single_update"
+msgstr "단일 입력"
+
+#: includes/admin/tpl/settings-page.php:169
+msgid "lbl_plz_select"
+msgstr "선택하세요."
+
+#: includes/admin/tpl/shortener_list.php:4
+msgid "cmd_shortener_list"
+msgstr "단축 URL 목록 보기"
+
+#: includes/admin/tpl/shortener_list.php:20
+msgid "lbl_shortener_query"
+msgstr "단축 쿼리 제목"
+
+#: includes/admin/tpl/shortener_list.php:23
+msgid "desc_shortener_query"
+msgstr "http(s)://server.com/?단축쿼리=xxx로 작동합니다. 한번 입력하면 수정할 수 없습니다."
+
+#: includes/admin/tpl/shortener_list.php:36
+msgid "lbl_search"
+msgstr "검색"
+
+#: includes/admin/tpl/sidebar.php:18
+msgid "cmd_support_singleview"
+msgstr "싱글뷰를 후원하세요."
+
+#: includes/admin/tpl/sidebar.php:25
+msgid "lbl_donate_for_utm_shortener"
+msgstr "utm shortener 후원"
+
+#: includes/admin/tpl/sidebar.php:27
+msgid "cmd_enter_amount_in_usd"
+msgstr "후원 금액을 USD로 입력"
+
+#: includes/admin/tpl/sidebar.php:31
+msgid "cmd_support_utm_shortener"
+msgstr "utm shortener 후원하기"
+
+#: includes/admin/tpl/sidebar.php:40
+msgid "lbl_quick_links"
+msgstr "바로 가기"
+
+#: includes/admin/tpl/sidebar.php:46
+msgid "lbl_utm_shortener_plugin_homepage"
+msgstr "utm shortener 홈페이지"
+
+#: includes/admin/tpl/sidebar.php:51
+msgid "lbl_wp_faq"
+msgstr "자주 묻는 질문"
+
+#: includes/admin/tpl/sidebar.php:56
+msgid "lbl_wp_support"
+msgstr "워드프레스 제품 지원"
+
+#: includes/admin/tpl/sidebar.php:61
+msgid "lbl_wp_reviews"
+msgstr "워드프레스 후기"
+
+#: includes/admin/tpl/sidebar.php:66
+msgid "lbl_github"
+msgstr "깃헙 저장소"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:60
+msgid "lbl_shorten_uri"
+msgstr "단축 쿼리 값"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:61
+msgid "lbl_utm_info"
+msgstr "UTM 정보"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:62
+msgid "lbl_click_cnt"
+msgstr "클릭수"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:64
+msgid "lbl_allocation_period"
+msgstr "비용 배분 기간"
+
+#: includes/admin/wp_admin_class/wp_shortener_list.php:65
+msgid "lbl_regdate"
+msgstr "등록일"

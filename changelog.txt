@@ -1,0 +1,7 @@
+= Changelog archive =
+
+This is an archive of older changelog entries. Most recent entries are maintained in readme.txt
+
+= 1.0.1 =
+* Release
+
