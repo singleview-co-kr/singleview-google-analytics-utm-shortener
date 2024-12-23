@@ -6,8 +6,8 @@
  * Requires PHP:      7.0
  * Version:           0.0.1
  * Author:            singleview.co.kr
- * Author URI: https://singleview.co.kr/
- * Tested up to: 6.6
+ * Author URI:        https://singleview.co.kr/
+ * Tested up to:      6.7.1
  * License:           GPLv2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       singleview-google-analytics-utm-shortener
